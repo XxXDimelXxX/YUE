@@ -1,0 +1,15 @@
+.heading {
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.4em;
+    border-bottom: 2px solid rgb(179, 50, 52);
+    float: left;
+    color: rgb(42, 30, 21);
+    padding: 0px 5px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.heading::first-letter {
+    color:rgb(179, 50, 52);
+}

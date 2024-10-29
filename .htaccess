@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteRule ^news?$ news.php [NC,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-store, no-cache"
+</IfModule>
+  
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "now"
+</IfModule>
