@@ -4,6 +4,18 @@
   RewriteRule ^news?$ news.php [NC,L]
 </IfModule>
 
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteRule ^pancake?$ pancake.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteRule ^feedback?$ feedback.php [NC,L]
+</IfModule>
+
 <IfModule mod_headers.c>
     Header set Cache-Control "no-store, no-cache"
 </IfModule>

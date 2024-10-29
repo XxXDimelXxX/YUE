@@ -72,6 +72,11 @@ img {
     color: rgb(42, 30, 21);
     font-family: "Roboto Slab", serif;
 }
+
+
+#feedback>.btn {
+    margin-right:10% ;
+}
 /*кнопки*/
 
 
